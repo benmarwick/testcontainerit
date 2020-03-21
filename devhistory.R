@@ -1,5 +1,10 @@
 suppressPackageStartupMessages(library("containerit"))
 
+# Ideally we run this function and get a Dockerfile that
+# - copies all the files into the container
+# - renders the Rmd during build
+# - gives us RStudio server in the browswer when run for interactive work
+
 df_description <- dockerfile(from = here::here("DESCRIPTION"),
                              image = paste0('rocker/verse:',
                                             paste0(R.version$major,".",R.version$minor)),

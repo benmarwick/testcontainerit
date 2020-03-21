@@ -6,5 +6,5 @@
 
 The goal of testcontainerit is to explore how [containerit](https://o2r.info/containerit/articles/containerit.html) can be used to auto-generate Dockerfiles to support research compendia like those produced by [rrtools](https://github.com/benmarwick/rrtools/)
 
-The workflow is sketched out in [devstuff.R](devstuff.R)
+The workflow we're working on is sketched out in [devhistory.R](devhistory.R)
 
