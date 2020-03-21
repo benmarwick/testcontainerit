@@ -4,22 +4,5 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of testcontainerit is to ...
-
-## Installation
-
-You can install the released version of testcontainerit from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("testcontainerit")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(testcontainerit)
-## basic example code
-```
+The goal of testcontainerit is to explore how [containerit](https://o2r.info/containerit/articles/containerit.html) can be used to auto-generate Dockerfiles to support research compendia like those produced by [rrtools](https://github.com/benmarwick/rrtools/i)
 
